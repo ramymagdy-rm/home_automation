@@ -1,0 +1,23 @@
+{
+  "name": "sh_auto_auth",
+  "version": "1.0.0",
+  "description": "smart home automation",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "ramy ezzat",
+  "license": "MIT",
+  "dependencies": {
+    "canvas-gauges": "git@github.com:Mikhus/canvas-gauges.git",
+    "firebase": "^9.6.0"
+    
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.0.1",
+    "val-loader": "^4.0.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

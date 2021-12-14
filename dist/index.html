@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smart home platform</title>
+    <link rel="icon" type="image/png" href="./icons/logo.png"> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="gauge.min.js"></script>
+  </head>
+  <body>
+    <div id="header_div" class="topnav">
+      <h1>smart home automation</h1>
+    </div>
+
+    <div id="login_div" class="main-div">
+      <form class="login">
+        <label for="email">email:</label>
+        <input type="email"name="email">
+        <label for="password">password:</label>
+        <input type="password" name="password">
+        <!--
+        <span class="forgot-password">
+          <label for="resetPassword"><a href="">Forgot password?</a></label>
+        </span>
+        -->
+        <button>login</button>
+      </form>
+    </div>
+    <div id="user_div" class="loggedin-div">
+      <div class="content">
+        <div class="card-grid">
+          <div class="card">
+            <p class="card-title">Temperature</p>
+            <canvas id="gauge-temperature"></canvas>
+          </div>
+          <div class="card">
+            <p class="card-title">Humidity</p>
+            <canvas id="gauge-humidity"></canvas>
+          </div>
+          <div class="card">
+            <p class="card-title">Soil 1</p>
+            <canvas id="gauge-soil_1"></canvas>
+          </div>
+          <div class="card">
+            <p class="card-title">Soil 2</p>
+            <canvas id="gauge-soil_2"></canvas>
+          </div>
+        </div>
+      </div>
+      <button class="logout">logout</button>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
