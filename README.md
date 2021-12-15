@@ -1,4 +1,5 @@
 ![Tests](https://github.com/ramymagdy-rm/home_automation/actions/workflows/webpack.yml/badge.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://rawgit.com/ramymagdy-rm/home_automation/main/LICENSE)
 # home_automation
 This is a home automation authentication web application using [node.js, htm, css, firebase_9, webpack]; and contains:
 - firebase 9 modularity implementation
