@@ -27,6 +27,7 @@ jobs:
       run: |
         eval "$(ssh-agent -s)"
         start-ssh-agent.cmd
+        npm install canvas-gauges
     - name: Build
       run: |
         npm install
