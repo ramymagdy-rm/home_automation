@@ -9,9 +9,7 @@
   "author": "ramy ezzat",
   "license": "MIT",
   "dependencies": {
-    //"canvas-gauges": "git+https@github.com:Mikhus/canvas-gauges.git",
     "firebase": "^9.6.0"
-    
   },
   "devDependencies": {
     "file-loader": "^6.2.0",
