@@ -21,6 +21,7 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
         node-version: ${{ matrix.node-version }}
     - name: dependencies
       run: |
@@ -29,3 +30,4 @@ jobs:
       run: |
         npm install
         npx webpack
+        
